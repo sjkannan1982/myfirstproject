@@ -8,7 +8,7 @@ namespace MyFirstProject
     {
         public static void Main(string[] args)
         {
-            Console.Writeline("Testing1");
+            Console.Writeline("Testing2");
         }
     }
 }
