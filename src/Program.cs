@@ -1,14 +1,22 @@
+﻿using System;
 
-
-using System;
-
-namespace MyFirstProject
+namespace ConsoleApp1
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.Writeline("Testing1");
+            if (args.Length > 0)
+            {
+                foreach (string arg in args)
+                    Console.WriteLine(arg);
+            }
+            else
+            {
+                Console.WriteLine("No args were provided");
+            }
+
+            Console.ReadLine();
         }
     }
 }
