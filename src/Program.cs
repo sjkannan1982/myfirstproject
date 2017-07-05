@@ -13,7 +13,7 @@ namespace ConsoleApp1
             }
             else
             {
-                Console.WriteLine("No args were provided");
+                Console.WriteLine("No args were provided 1");
             }
 
             Console.ReadLine();
